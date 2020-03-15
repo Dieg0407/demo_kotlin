@@ -7,6 +7,7 @@ public class ClienteJava {
     private String apellidos = "";
     private String dni = "";
     private int edad = 0;
+    private String telefono = "";
 
     public ClienteJava() {}
 
@@ -73,5 +74,13 @@ public class ClienteJava {
                 ", dni='" + dni + '\'' +
                 ", edad=" + edad +
                 '}';
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
     }
 }
